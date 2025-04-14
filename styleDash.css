@@ -1,0 +1,135 @@
+/* Base styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F7FA;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #212121;
+}
+
+/* Container for dashboard */
+.dashboard-container {
+    background-color: #fff;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 1000px; /* Flexible on desktop */
+    width: 90%;        /* Full width on mobile */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-container h2 {
+    text-align: center;
+    color: #0D47A1;
+    margin-bottom: 30px;
+}
+
+.dashboard-menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.dashboard-menu li {
+    background-color: #E3F2FD;
+    border: 1px solid #BBDEFB;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    flex: 1 1 40%;
+    max-width: 45%;
+    transition: 0.3s;
+}
+
+.dashboard-menu li:hover {
+    background-color: #BBDEFB;
+    cursor: pointer;
+}
+
+.dashboard-menu a {
+    color: #0D47A1;
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+}
+
+/* Success and error styles */
+.success-message {
+    color: #2E7D32;
+    text-align: center;
+    font-weight: bold;
+}
+
+.error-message {
+    color: #C62828;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Buttons */
+button, .btn {
+    background-color: #0D47A1;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+}
+
+button:hover, .btn:hover {
+    background-color: #1565C0;
+}
+
+/* Links */
+a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 768px) {
+    .dashboard-container {
+        padding: 20px;
+        width: 95%;
+    }
+
+    .payment-table th,
+    .payment-table td {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .dashboard-container {
+        width: 85%;
+    }
+}
+@media (max-width: 768px) {
+    .dashboard-container {
+        padding: 20px;
+        width: 95%;
+    }
+
+    .payment-table th,
+    .payment-table td {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .dashboard-container {
+        width: 85%;
+    }
+}
