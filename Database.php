@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost';
-$dbname = 'toviLife';
+$dbname = 'ToviLife';
 $username = 'app_user'; // replace with your actual MySQL app-level username
 $password = 'securePassword123'; // replace with your actual MySQL password
 
