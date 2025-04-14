@@ -75,7 +75,7 @@ git clone https://github.com/YOUR_USERNAME/Tovi-Insurance-App.git
 5. Log in using one of the test credentials from the SQL setup.
 
 ## Author
-SGT Sedjro Tovihouande — [sedjrotovihouande.com](https://sedjrotovihouande.com)
+Sedjro Tovihouande — [sedjrotovihouande.com](https://sedjrotovihouande.com)
 
 ## License
 This project is licensed for academic and educational purposes only.
